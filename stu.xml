@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--xml的注释:xml里面的标签都是成对的，
+且区分大小写，
+标签中可继续套标签
+ID="S001"  id、name、class叫属性    S001为值
+-->
+<Class>
+    <student ID="S001">
+        <name>yanyan</name>
+        <age>29</age>
+        <phone>15200000000</phone>
+    </student>
+
+    <student ID="S002">
+        <name>xiaoxia</name>
+        <age>28</age>
+        <phone>13000000000</phone>
+    </student>
+        <student ID="S003">
+        <name>kuangxianjiao</name>
+        <age>27</age>
+        <phone>18800000000</phone>
+    </student>
+    <acc>
+        <input username="student" password="123456"/>
+        <input username="teacher" password="123456"/>
+    </acc>
+
+</Class>
